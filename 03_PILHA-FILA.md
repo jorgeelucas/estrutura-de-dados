@@ -145,6 +145,6 @@ A estrutura mais comum é a árvore binária, que tem no máximo dois nós-filho
 A partir da estrutura de árvore binária (com um nó-filho à esquerda e um à direita da raiz) é possível estruturar a chamada BST, ou árvore de busca binária (binary search tree), que utiliza o princípio do algoritmo de busca binária para estruturar os dados de forma que valores menores estejam à esquerda da raiz e valores maiores à direita. Essa união do algoritmo com a estrutura de dados leva a uma maior eficiência na manipulação de dados, seja para buscar, alterar, incluir ou remover elementos.
 
 
-
+> fonte: https://www.alura.com.br/artigos/estruturas-de-dados-introducao
 
 
