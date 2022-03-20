@@ -22,10 +22,10 @@ De acordo com o Tutorial Java,
 ### Operações fundamentais de uma estrutura de dados
 Há algumas operações genéricas que podemos usar com estrutura de dados
 
-**ACESSAR
-INSERIR
-DELETAR
-ENCONTRAR
-ORDENAR**
+* ACESSAR
+* INSERIR
+* DELETAR
+* ENCONTRAR
+* ORDENAR
 
 Essas são as principais operações que você precisará performar, nem todas as estruturas têm todas essas operações, por exemplo, muitas estruturas não tem nenhuma operação de encontrar/buscar, é só uma coleção, um grande contêiner de coisas, e se você precisar buscar algum item tem que passar por toda ela até encontrar. Muitas também não provem nenhum tipo de ordenação, outras são ordenadas naturalmente.
