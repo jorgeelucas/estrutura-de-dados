@@ -2,7 +2,7 @@
 
 ## 1. Arrays
 
-O array é o fundamental e a estrutura de dados mais usada em todas as lingagens de programção.
+O array é fundamental e a estrutura de dados mais usada em todas as lingagens de programção.
 
 > Um array é uma coleção ordenada de itens, onde cada item tem um indice
 
