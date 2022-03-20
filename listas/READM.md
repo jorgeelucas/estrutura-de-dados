@@ -31,7 +31,7 @@ A grande diferença é a ideia do acesso direto vs sequencial, o array permite a
 <center><img src="https://miro.medium.com/max/816/1*CJ27twE8azv289_SNvd0iQ.png"></center>
 
 ###### o ultimo elemento deve apontar para nulo.
-veremos como seria representado cada nó/elemento em java:
+veremos como seria represetado cada nó/elemento em java:
 
 
 ```java
