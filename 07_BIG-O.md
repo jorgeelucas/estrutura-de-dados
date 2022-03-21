@@ -93,10 +93,6 @@ Se o array já estiver ordenado inicialmente, não haverá trocas. O algoritmo v
 #####  `Quick sort`
 _quick sort_ terá de percorrer a lista no tempo O(n) se os elementos forem ordenados na ordem oposta, mas, na média, ele ordena o array no tempo O(n * log(n)). Em geral, quando avaliamos a complexidade de tempo de um algoritmo, vemos o seu desempenho no pior dos casos.
 
-<center><img src="https://www.freecodecamp.org/portuguese/news/content/images/2021/12/0_C9ork5K0ay7_CLBv.gif"></center>
-
-Se o array já estiver ordenado inicialmente, não haverá trocas. O algoritmo vai iterar pelo array apenas uma vez, o que resulta em uma complexidade de O(n). Portanto, diríamos que a complexidade de tempo de melhor caso da insertion sort é O(n). Uma complexidade de O(n) também é conhecida normalmente como complexidade linear.
-
 
 &nbsp;
 > Esse material tem como fonte: https://www.freecodecamp.org/portuguese/news/o-que-e-a-notacao-big-o-complexidade-de-tempo-e-de-espaco/#:~:text=1.-,O%20que%20%C3%A9%20a%20nota%C3%A7%C3%A3o%20Big%20O%20e%20qual%20a,valor%20espec%C3%ADfico%20ou%20ao%20infinito.
