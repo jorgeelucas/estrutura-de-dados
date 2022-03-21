@@ -10,6 +10,12 @@ Dito de modo um pouco mais simples, a notação Big O descreve a complexidade do
 
 <center><img src="https://www.sahinarslan.tech/static/b14f0f927757ce111e7338d849f219a5/17bda/big-o-table.jpg"></center>
 
+### Regras para a contagem:
+*   Ignorar os termos de ordem menor
+*   Considerar sempre o pior cenário
+*   Desconsiderar as constantes
+    * `O(2 x n) = O(n)`
+
 ### `O(1)`
 `O(1)` tem a menor complexidade
 Geralmente chamado de "tempo constante", se você pode criar um algoritmo para resolver o problema em O(1), isso é normalmente o melhor que você pode conseguir. 
