@@ -23,3 +23,6 @@ ENCONTRAR
 ORDENAR**
 
 Essas são as principais operações que você precisará performar, nem todas as estruturas têm todas essas operações, por exemplo, muitas estruturas não tem nenhuma operação de encontrar/buscar, é só uma coleção, um grande contêiner de coisas, e se você precisar buscar algum item tem que passar por toda ela até encontrar. Muitas também não provem nenhum tipo de ordenação, outras são ordenadas naturalmente.
+
+
+* [Listas](https://github.com/jorgeelucas/estrutura-de-dados/blob/master/01_LISTA.md)
