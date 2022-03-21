@@ -89,6 +89,7 @@ Set<Usuario> conjunto = new HashSet<>();
     * Ordena cada elemento na inserção por elementos únicos
     * Não suporta elementos Nulos, caso tenha um elemento nulo é lançado `NullPointerException`
     * Ação de inserção lenta por ter a necessidade de reordenar, rápida na ação de leitura
+    * Implementa a interface `SortedSet`
 ```java
 Set<Usuario> conjunto = new TreeSet<>();
 ```
