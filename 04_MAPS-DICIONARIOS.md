@@ -117,6 +117,6 @@ Basicamente a mesma ideia quando vamos **acessar** um elemento, passamos o nosso
 
 <center><img src="https://miro.medium.com/max/1000/1*3Uzpz0rRxGhH_XlsmQyZvQ.png"></center>
 
-
+> Para um correto uso da _hash table_ é necessário sobrescrever o método `hashcode`
 
 

@@ -1,5 +1,7 @@
 # Conjuntos (set)
 
+> Para um correto uso da interface _Set_ em objetos particulares é necessário sobrescrever o método `equals`
+
 Quando você só precisa de uma grande coleção de objetos sem se importar com a ordem desses objetos, você pode usar um conjunto, nas lingagens de programação é chamado de _SET_
 
 
