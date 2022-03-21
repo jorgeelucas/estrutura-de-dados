@@ -104,16 +104,98 @@ Set<Usuario> conjunto = new LinkedHashSet<>();
 ### Interface Map
 > (java.util.Map)
 
+A interface `Map` é uma coleção do tipo mapa. As principais características deste tipo de coleção são: os objetos são armazenados na forma de chave-valor, não pode haver chaves duplicadas dentro do mapa.
+
+Armazana dois tipo de elementos, um chave e um valor. O valor pode ser repetido mas a chave não
+
+> Ao informar uma chave repetida ele sobrepõe o primeiro valor
+
+Para localizar um objeto dentro do mapa é necessário ter sua chave ou percorra o mapa por completo.
+
+### Uso
+
+Como não herda de collections tem algumas diferenças, mas muita semelhança também.
+Os principais métodos são;
+*   `put(chave, valor)`
+*   `get(chave)`
+*   `containsKey(chave)`
+*   `containsValue(valor)`
+*   `remove(chave)`
+*   `size()`
+*   `keySet()`
+    * Retorna um _set_ com as chaves do mapa, pode ser usado no _forEach_ para percorrer o _Map_
+*   `EntrySet()`
+    * Retorna um _set_ do objeto `Entry<K,V>` que tem os métodos `.getChave()` e `.getValue()` e também pode ser usado para percorrer o mapa com um _forEach_
+
+Suas principais implementações são: 
+* `HashMap`
+    * O mais utilizado
+    * Usa o conceito de _hash table_ para espalhamento
+    * Maior performance nas operações de `get(chave)` - **O(1)** (acesso constante)
+    * Permite chaves e valores nulos
+    * Use-a quando preferir uma performance maior porém não precisa de ordem
+```java
+Map<String, Usuario> mapa = new HashMap<>();
+```
+* `TreeMap`
+    * Além de implementar a interface `Map`, também implementa `NavigableMap` e `SortedMap`.
+    * Usa o conceito de árvore rubro negra internamente.
+    * Mantém a ordem natural dos objetos, ou `Comparator` especificado.
+    * Permite somente valores nulos (Chaves nulas lancará `NullPointerException`)
+    * Use-a quando preferir uma performance menor porém precisa de uma ordem pre-definida
+```java
+Map<String, Usuario> mapa = new TreeMap<>();
+```
+* `LinkedHashMap`
+    * Usa o conceito de `(doubly-linked-list)` internamente
+    * Maior performance em ações que manipulam algum elemento da coleção
+    * Mantém a ordem de inserção dos elementos.
+    * Permite chaves e valores nulos
+    * Use-a quando preferir uma performance menor porém precisa da ordem de inserção
+
+```java
+Map<String, Usuario> mapa = new LinkedHashMap<>();
+```
+
+&nbsp;
+#### Exemplos
+Exemplo de inserir e obter um valor:
+```java
+// Para inserir um valor no map usa-se
+mapaDeUsuarios.put("usuarioAdm", new Usuario("admin"));
+
+// Para obter um valor deve informar a chave e ele retornará o objeto referenciado.
+Usuario usuarioAdm = mapaDeUsuarios.get("usuarioAdm");
+
+```
+
 &nbsp;
 ### Interface Queue
 > (java.util.Queue)
 
+A interface `Queue` é uma coleção do tipo fila. As principais características deste tipo de coleção são: a ordem que os elementos entram na fila é a mesma ordem que os elementos saem da fila (FIFO - First In First Out), podemos também criar filas com prioridades.
+
+<center><img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200903183026/Queue-Deque-PriorityQueue-In-Java.png"></center>
 
 
-
-
-
-
+Suas principais implementações são: 
+* `ArrayDeque`
+    * O mais utilizado
+    * Usa o conceito de _array dinamico_ internamente tornando as operações de acesso direto mais rápidas
+```java
+Queue<Usuario> fila = new ArrayDeque<>();
+```
+* `LinkedList`
+    * Usa o conceito de _Doubly-linked-list_ internamente
+```java
+Queue<Usuario> fila = new LinkedList<>();
+```
+* `PriorityQueue`
+    * Usa o conceito de _fila_ porém pode-se passar algum tipo de prioridade para entrar na ponta da fila.
+    * Passa-se a prioridade com um `Comparator`
+```java
+Queue<Usuario> fila = new PriorityQueue<>();
+```
 
 
 
