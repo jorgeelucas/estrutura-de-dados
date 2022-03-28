@@ -10,7 +10,18 @@ O array é fundamental e a estrutura de dados mais usada em todas as lingagens d
 
 Por ordenada, entenda uma lista onde os valores sempre são acessados na mesma ordem, sempre começando do zero, por exemplo, o primeiro elemento sempre será o indice zero, o segundo elemento sempre será o indice um e assim por diante.
 
-por ser muito usado, o array já vem construído no java e disponibiliza algumas operações como _length_ para saber o tamanho do nosso array (lembre-se, o tamanho e não a quantidade de objetos).
+Por ser muito usado, o array já vem implementado no java e disponibiliza algumas operações como _length_ para saber o tamanho do nosso array (lembre-se, o tamanho e não a quantidade de objetos). Também em Java o array pode se aplicar para qualquer classe ou tipo primitivo da linguagem.
+
+```java
+// Formas possíveis de declarar um array em java
+int[] numeros;
+int []numeros;
+int numeros[];
+
+// Para instanciá-lo é necessário:
+numeros = new int[10];
+```
+> No Java o array possuí um tamanho fixo, passando na sua inicialização e não pode ser alterado posteriormente.
 
 ## 2. Listas
 
@@ -30,8 +41,8 @@ A grande diferença é a ideia do acesso direto vs sequencial, o array permite a
 
 <center><img src="https://miro.medium.com/max/816/1*CJ27twE8azv289_SNvd0iQ.png"></center>
 
-###### o ultimo elemento deve apontar para nulo.
-veremos como seria representado cada nó/elemento em java:
+###### O ultimo elemento deve apontar para nulo.
+Veremos como seria representado cada nó/elemento em java:
 
 
 ```java
@@ -44,7 +55,7 @@ public class Elemento {
 
 Pela forma como é construído a lista ligada requer bem menos tempo para adicionar ou remover elementos do que no array.
 
-Quando o array adiciona ou remove algum elemento do meio ele tem que __"afastar"__ os elementos para a direita para manter a ordem, até mesmo quando adicionar no final, pode ser que precise realocar para um array maior custando bem mais tempo e performance de processamento.
+Quando o array adiciona ou remove algum elemento do meio ele tem que __"afastar"__ os elementos para a direita ou esquerda para manter a ordem, até mesmo quando adicionar no final pode ser necessário realocar os dados para um array maior, pois o tamanho dele é imutável, custando bem mais tempo e performance de processamento.
 
 ### 2.3 Listas duplamente ligadas
 > (doubly linked list)

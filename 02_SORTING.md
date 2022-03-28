@@ -1,11 +1,11 @@
 # Sorting (ordenar)
 
-Ordenar é sempre uma operação custosa computacionalmente, pode ser que seja necessário mas queremos minimizar o custo disso. Então tenha em mente quantos dados a coleção tem e quantas vezes ela vai ser ordenada, isso pode levar a diferentes algoritmos de ordenação.
+Ordenar é sempre uma operação custosa computacionalmente e sempre que for necessária  queremos minimizar esse custo. Então tenha em mente o tamanho coleção e quantas vezes ela será ordenada, isso pode levar a diferentes algoritmos de ordenação.
 
 <center><img src="https://miro.medium.com/max/1400/1*3GQEtOjUcPDPxJMEl5a0kA.png"></center>
 
 ### As funcionalidades de ordenação do array
-Quando queremos ordenar um array temos que entender como o nosso framework faz isso, primeiro ele vai olhar para a quantidade de dados que temos, a linguagem vai, automaticamente, alterar entre diferentes algoritmos de ordenação com base na quantidade de dados.
+Quando queremos ordenar um array temos que entender como o nosso framework faz isso. Primeiro ele verificará a quantidade de dados que temos e, automaticamente, escolherá o algoritmo de ordenação mais adequado.
 Depois temos que saber se será ordenado no array existente ou criado um array cópia para isso, a maioria das lingagens vai tentar ordenar o array já existente, enquanto poucas vão criar uma cópia do original para conter o array ordenado.
 
 ### Ordenando nossos próprios objetos
@@ -15,7 +15,7 @@ Quando for solicitado para ordenar nossos objetos, a linguagem certamente não v
 
 Então se precisamos ordenar Usuarios pelo id, nome ou data de nascimento a linguagem não vai saber a ordem que queremos e nem os atributos que queremos.
 
-Em java ao implementar a interface Comparable passa nosso tipo no _generics_ temos um método que ensina o java em qual ordem deve ser colocado os nossos itens.
+Em java ao implementar a interface Comparable passando nosso tipo no _generics_ temos um método que ensina o java em qual ordem deve ser colocado os nossos itens.
 
 ```java
 public class Usuario implements Comparable<Usuario> {
@@ -34,7 +34,7 @@ No melhor cenário o item vai estar na primeira posição e logo encontraremos e
 
 Esse tipo de busca é chamado de busca linear ou sequencial e são metodos de força bruta.
 
-Enquanto buscas lineares são simples de entender e faceis de escrever e certamente elas funcionam, elas são lentas e quanto mais dados tiver mais lentas serão.
+Enquanto buscas lineares são simples de entender e fáceis de escrever elas ficam mais lentas conforme a quantidade de dados aumentam.
 
 ### Busca em arrays ordenados
 Se não houver ordenação ou nenhuma sequencia pré-definida no array, então não há outra forma do que verificar cada elemento do array.

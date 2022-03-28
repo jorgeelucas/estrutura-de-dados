@@ -51,7 +51,7 @@ O conceito de hashing é muito valioso em computação, não somente para estrut
 > A referência pode ser um Inteiro, ou letras e numeros etc.
 
 ##### Por que usar HASH
-porque ser capaz de transformar nossos objetos em uma representação simples dele pode nos ajudar a encontra-lo em alguma localização de estrutura de dados.
+Porque ser capaz de transformar nossos objetos em uma representação simples deles pode nos ajudar a encontra-los em alguma localização de estrutura de dados.
 
 
 &nbsp;
@@ -64,7 +64,7 @@ A solução de espalhamento significa você, ao invés de guardar todas em uma p
 
 <center><img src="https://files.construfacilrj.com.br/2015/10/arquivo-arquivador-arquivista.jpg"></center>
 
-Agora quando for solicitado de alguma pessoa específica você não precisa procurar mais em todas as pilhas de certidões e sim somente na que é da letra do nome da pessoa solicitada, isso reduziria abtuptamente o seu trabalho. E quando mais você espalhasse, por uma estratégia bem definica, menor ficariam as pilhas de certidões e mais rápido você encontraria uma solicitada.
+Agora quando for solicitado de alguma pessoa específica você não precisa procurar mais em todas as pilhas de certidões e sim somente na que é da letra do nome da pessoa solicitada, isso reduziria consideravelmente o seu trabalho. E quando mais você espalhasse, por uma estratégia bem definica, menor ficariam as pilhas de certidões e mais rápido você encontraria uma solicitada.
 
 
 &nbsp;

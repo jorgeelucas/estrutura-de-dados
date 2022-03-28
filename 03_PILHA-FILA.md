@@ -30,7 +30,9 @@ A pilha é bastante usada na área de ciência da computação, um uso bem comum
 As operações básicas da pilha são: _push()_, _pop()_, _peek()_
 
 **PUSH** = Para adicionar um elemento ao topo da pilha.
+&nbsp;
 **POP** = Para retornar (e remover) o elemento do topo.
+&nbsp;
 **PEEK** = Enquanto _peek_ apenas retorna o último elemento sem remove-lo.
 
 ### Implementação

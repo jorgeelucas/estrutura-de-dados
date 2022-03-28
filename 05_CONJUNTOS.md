@@ -20,7 +20,7 @@ Porém, em um conjunto, não é possível repetir os valores. Não importa a ord
 A maioria das linguagens tem uma api nativa para lidar com conjuntos, no caso do Java é a interface _Set_ com alguma implementações, a mais conhecida delas é o _HashSet_
 
 ```java
-Set<Usuario> conjuntoDeUsuarios = new HashSet<>(numeros);
+Set<Integer> conjuntoDeNumeros = new HashSet<>(numeros);
 // O resultado é {1, 2, 5, 7, 8}
 ```
 

@@ -20,7 +20,7 @@ Dito de modo um pouco mais simples, a notação Big O descreve a complexidade do
 `O(1)` tem a menor complexidade
 Geralmente chamado de "tempo constante", se você pode criar um algoritmo para resolver o problema em O(1), isso é normalmente o melhor que você pode conseguir. 
 
-constantes são funções que independente da quantidade de valores de entrada passados, a performance do tempo de resposta dela se manterá a mesma.
+Constantes são funções que independente da quantidade de valores de entrada passados, a performance do tempo de resposta dela se manterá a mesma.
 
 ```java
 int num = arrayDeNumero[8];
