@@ -76,3 +76,7 @@ public class Elemento {
     ...
 }
 ```
+
+> Esse material foi baseado nos seguintes artigos: 
+ - https://medium.com/omarelgabrys-blog/diving-into-data-structures-6bc71b2e8f92
+ - https://medium.com/omarelgabrys-blog/data-structures-a-quick-comparison-6689d725b3b0

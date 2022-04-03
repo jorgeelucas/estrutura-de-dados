@@ -39,7 +39,7 @@ Da mesma forma que não tem um mesmo índice se repetindo num array básico, o a
 
 &nbsp;
 ### Hashing
-> Uma tabela de hash em português seria o equivalente á uma tabela de espalhamento.
+> Uma tabela de hash em português seria o equivalente á uma [tabela de espalhamento](https://pt.wikipedia.org/wiki/Tabela_de_dispers%C3%A3o#:~:text=Em%20ci%C3%AAncia%20da%20computa%C3%A7%C3%A3o%2C%20uma,e%20obter%20o%20valor%20desejado.).
 
 &nbsp;
 O conceito de hashing é muito valioso em computação, não somente para estrutura de dados mas também para segurança, criptografia, gráficos, audios e etc.
@@ -65,6 +65,8 @@ A solução de espalhamento significa você, ao invés de guardar todas em uma p
 <center><img src="https://files.construfacilrj.com.br/2015/10/arquivo-arquivador-arquivista.jpg"></center>
 
 Agora quando for solicitado de alguma pessoa específica você não precisa procurar mais em todas as pilhas de certidões e sim somente na que é da letra do nome da pessoa solicitada, isso reduziria consideravelmente o seu trabalho. E quando mais você espalhasse, por uma estratégia bem definica, menor ficariam as pilhas de certidões e mais rápido você encontraria uma solicitada.
+
+> Um bom artigo para saber mais: https://joaoarthurbm.github.io/eda/posts/hashtable/
 
 
 &nbsp;
@@ -120,3 +122,5 @@ Basicamente a mesma ideia quando vamos **acessar** um elemento, passamos o nosso
 > Para um correto uso da _hash table_ é necessário sobrescrever o método `hashcode`
 
 
+&nbsp;
+> artigos de refência: https://www.devmedia.com.br/hashmap-java-trabalhando-com-listas-key-value/29811

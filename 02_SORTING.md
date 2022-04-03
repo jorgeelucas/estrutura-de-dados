@@ -49,3 +49,5 @@ Muitas vezes concordamos em usar um simples algoritmo lento, porque a unica form
 Então se é necessário buscar no array uma única vez é melhor ter uma complexidade de **O(n)** para uma busca linear do que **O(NLogN)** para ordenar + **O(LogN)** para buscar. Porém se no lugar de uma única busca, é necessário varias buscas então deve-se ordenar uma vez e agora ficar buscando da coleção ordenada com **O(LogN)** em todas as buscas no lugar de **O(N)** da busca linear
 
 >Não há uma estrutura de dados igualmente boa para todas as situações. Uma estrutura ordenada naturalmente requer menos tempo em buscar um elemento, porém mais tempo para inserir pelo fato de manter a ordenação enquanto um array simples requer mais tempo para buscar e pouquissimo tempo para inserir no final.
+
+> Na seguinte playlist no youtube você encontra mais informação e algoritmos já conhecidos e testados de ordenação; https://www.youtube.com/watch?v=8zVdz6TyV_c&list=PLTLAlheiUm5FRR5BNn4iBFwzYHiNq2Iv2

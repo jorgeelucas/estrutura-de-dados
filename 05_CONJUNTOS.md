@@ -9,6 +9,8 @@ Quando você só precisa de uma grande coleção de objetos sem se importar com 
 
 Não ordenada significa que não temos index como nos arrays básicos.
 
+> Documentação da implementação de SET na oracle: https://docs.oracle.com/javase/tutorial/collections/implementations/set.html
+
 &nbsp;
 ##### Exemplo
 É perfeitamente possível criar um array com os seguintes valores:
@@ -91,3 +93,4 @@ public class ConjuntoDePessoas {
 }
 ```
 
+> Apoio: https://www.devmedia.com.br/diferencas-entre-treeset-hashset-e-linkedhashset-em-java/29077

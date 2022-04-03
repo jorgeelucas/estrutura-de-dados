@@ -201,6 +201,6 @@ Queue<Usuario> fila = new PriorityQueue<>();
 
 
 
-
-
+&nbsp;
+> Artigos: https://www.alura.com.br/conteudo/java-collections
 
