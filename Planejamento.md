@@ -242,6 +242,8 @@ Arrays associativos vs objeto<br />
 Arrays associativos e suas principais atribuições<br />
 Arrays associativos vs array<br />
 <br /><br />
+</td>
+<td>
 Estudo de Caso 1:<br />
 Implementação do nosso próprio array associativo<br />
 Como o Java repressenta arrays associativos<br />
