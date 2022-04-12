@@ -8,24 +8,25 @@
 
 ## Objetivos de Aprendizagem
 
-O objetivo do módulo é que os alunos entendam os conceitos básicos de estrutura de dados,  podendo ser capaz de analisar, implementar e utilizar os principais tipos de estrutura para lidar com uma coleção de dados. Também espera-se que o aluno seja capaz de conhecer e analizar os métodos de ordenação mais usado na área da computação e seus benefícios.
+O objetivo do módulo é que os alunos entendam os conceitos básicos de estrutura de dados,  podendo ser capaz de analisar, implementar e utilizar os principais tipos de estrutura para lidar com coleções de dados de diferentes volumes. Análise e conhecimentos da utilização de conceitos na linguagem de progração Java. Análise e performance de algoritmos.
 
 ## Projeto
 
-Crie uma aplicação que simule uma app para a locação de veículos. Os clientes podem alugar três tipos diferentes de veículos sendo pequeno, médio e SUV. O preço base da diária do aluguel de um veículo é 100 reais para carro pequeno, 150 para médio e 200 para SUV. Os clientes de um aluguel podem ser pessoas físicas ou jurídicas, pessoas físicas tem desconto de 5% caso o aluguel tenha mais de 5 diárias, já pessoas jurídicas tem 10% de desconto caso o aluguel tenha mais de 3 diárias.
+Crie uma aplicação que receba uma grande quantidade de transações bancarias (agencia, conta, banco, titular, saque ou deposito, operador, data e hora e etc.) e organize todas essas operações por titular, ordene todas as operações por data e hora, elimine as operações duplicadas (quando têm o mesmo valor, tipo (saque, deposito), o mesmo operador e a mesma data e hora exata) e no final mostre o saldo final da conta após todas as transações. (todas as contas iniciam zeradas) 
 
-Crie a classe alguel que deve receber um veículo, um cliente e uma quantidade de dias para esse aluguel, com essas informações, a classe deve calcular qual é o valor final do aluguel.
+Decida qual estrutura de dados utilizar para receber todas as transações, a melhor forma de ordena-las, uma boa estratégia para eliminar as operações duplicadas.
 
-Use a classe "Aplicacao" para criar seu método "main" e demonstrar o funcionamento do seu código.
+As transações viram de um arquivo .csv com tudo desordenado e várias operações duplicadas.
 
 ## Avaliação por Rubricas
 
 As habilidades e competências a serem desenvolvidas neste módulo são as descritas a seguir:
 
-- Listas, Pilhas, Filas e Dicionários de dados
+- Listas, Pilhas, Filas e Arrays associativos
 - Conjunto de dados
 - Utilização de diferentes tipos de estruturas
 - Algoritmos e estratégias de ordenação
+- API de collections do Java
 - Análise e complexidade de algoritmos com notação _Big O_
 
 
@@ -150,61 +151,87 @@ Projeto
 </tr>
 <tr>
 <td>Aula 1</td>
-<td>Interfaces</td>
+<td>Introdução e implementação de Listas</td>
 <td>
-O que são interfaces<br /><br />
-Como utilizar uma interfaces<br /><br />
+Motivações de usar Listas<br/><br />
+Conceitos de Listas<br/><br />
+Diferentes tipos de listas<br /><br />
 </td>
 <td>
 Estudo de caso:<br />
-Como comparar objetos utilizando a interface Comparable?<br /><br />
+Como funciona internamente uma Lista Linear?
+Como o Java representa uma lista linear?
+Funionamento e principais operações do array.
+<br /><br />
 Expositiva:<br />
-O que são e como utilizar interfaces<br /><br />
+Implementação do array<br /><br />
+Objeto vs array<br /><br />
+Utilizando ArrayList em Java <br /><br />
+
 Pesquisa individual:<br />
-Descobrir na documentação/fóruns como implementar uma interface<br /><br />
+Descobrir na documentação/fóruns quando é necessário utilizar um array<br /><br />
+
 Prático:<br />
-Exercícios de fixação (Interface Comparable)
+Exercícios de fixação (Arrays e ArrayList)
 </td>
 </tr>
 <tr>
 <td>Aula 2</td>
-<td>Implementação de Interfaces</td>
 <td>
-Como implementar uma interface<br/><br />
-Como utilizar uma interface<br /><br />
+Diferentes implementações de listas
 </td>
 <td>
-Estudo de caso:<br />
-Como criar e utilizar uma interface para definir as ações de veículos como ligar, acelerar, desacelerar...?
-<br /><br />
-Expositiva:<br />
-Implementação de Interfaces<br /><br />
-Diferenças entre classes abstratas e interfaces<br /><br />
-Pesquisa individual:<br />
-Descobrir na documentação/fóruns o que é possível implementar com interfaces<br /><br />
-Prático:<br />
-Exercícios de fixação (Interfaces e Classes Abstratas)
-</td>
-</tr>
-<tr>
-<td>Aula 3</td>
-<td>
-Generics
-</td>
-<td>
-Utilizando Generics<br></br>
-Definindo classes utilizando Generics<br></br>
+Definição de lista ligada<br></br>
+Definindo de lista duplamente ligada<br></br>
+Principais diferenças entre lista linear vs lista ligada
 </td>
 <td>
 Estudo de Caso 1:<br />
-Como utilizar a interface comparable utilizando generics?
+Como funciona internamente uma Lista Ligada? 
+Criando a própria implementação de lista ligada com Java.
+Como funciona internamente uma Lista Duplamente Ligada?
+Criando a própria implementação de lista duplamente ligada com Java.
 <br /><br />
 <br /><br />
 Expositiva:<br />
-Utilizando Generics em classes Java<br />
+Utilizando LinkedList em Java<br />
+Diferença entre ArrayList vs LinkedList<br />
 <br /><br />
 Prático:<br />
-Exercícios de fixação (Generics).
+Exercícios de fixação (Quando decidir por um ou outro tipo de lista).
+</td>
+</tr>
+<tr>
+<td>
+Aula 3
+</td>
+<td>
+Pilhas e Filas
+</td>
+<td>
+Principais conceitos de Pilha?
+Principais conceitos de Fila?
+LIFO vs FIFO
+Principais utilizações de Pilhas no mundo real? (Pilha de livros, pilhas de prato)
+Desempilhar
+Principais utilizações de FILA (Fila de banco)
+<br /><br />
+</td>
+<td>
+Estudo de Caso 1:<br />
+Criar e desenvolver a nossa própria implementação de PILHA em Java seguindo os conceitos.
+Criar e desenvolver a nossa própria implementação de FILA em Java seguindo os conceitos.
+<br /><br />
+<br /><br />
+Expositiva:<br />
+Utilizando java.util.Stack<br /><br />
+Utilizando java.util.Queue<br /><br />
+Utilizando PriorityQueue<br /><br />
+Queue com LinkedList<br /><br />
+java.util.ArrayDeque<br /><br />
+
+Prático:<br />
+Exercícios de fixação (Pilhas e Filas).
 </td>
 </tr>
 <tr>
@@ -212,23 +239,23 @@ Exercícios de fixação (Generics).
 Aula 4
 </td>
 <td>
-Generics e Coleções
+Arrays associativos/dicionários/Map<br /><br />
 </td>
 <td>
-Definindo coleções com Generics
+pares chave-valor
+Arrays associativos vs objeto
+Arrays associativos e suas principais atribuições<br><br />
+Arrays associativos vs array<br><br />
 <br /><br />
-Criando classes de coleção com Generics
-<br /><br />
-</td>
-<td>
 Estudo de Caso 1:<br />
-Como criar uma lista de veículos que implementam a interface desenvolvida na aula 2?
-<br /><br />
+Implementação do nosso próprio array associativo
+Como o Java repressenta arrays associativos
 <br /><br />
 Expositiva:<br />
-Implementando coleções de objetos utilizando Generics<br /><br />
+Java HashMap<br /><br />
+
 Prático:<br />
-Exercícios de fixação (Coleções com Generics).
+Desenvolva uma agenda de contatos telefonicos utilizando um array associativo
 </td>
 </tr>
 <tr>
@@ -236,22 +263,31 @@ Exercícios de fixação (Coleções com Generics).
 Aula 5
 </td>
 <td>
-Princípios SOLID<br /><br />
+Hashing e hash tables<br /><br />
 </td>
 <td>
-O que é SOLID<br><br />
-Implementação de classes com SOLID
+Por que usar HASH?
+<br /><br />
+Hash vs criptografia
+<br /><br />
+Hash table vs Arrays vs Listas ligadas
 <br /><br />
 </td>
 
 <td>
 Estudo de Caso 1:<br />
-Implementação de classes que seguem os princípios SOLID.
+Implementando nossa própria tabela de dispersão.
+Como funciona o conceito de Hash table?
+hash table vs arrays e listas
 <br /><br />
 Expositiva:<br />
-Princípios do SOLID<br /><br />
+hashcode e equals em Java<br /><br />
+Java Hashmap<br /><br />
+
+Pesquisa individual:<br />
+Pesquisar vantagens e desvantagens da utilização de hash tables.<br /><br />
 Prático:<br />
-Exercícios de fixação (Exemplos de classes SOLID).
+Exercícios de fixação
 </td>
 </tr>
 <tr>
@@ -259,25 +295,29 @@ Exercícios de fixação (Exemplos de classes SOLID).
 Aula 6
 </td>
 <td>
-Princípios SOLID - Single Responsability<br /><br />
+Conjuntos<br /><br />
 </td>
 <td>
-SOLID - Single Responsability
-<br /><br />
-Implementação do Single Responsability
-<br /><br />
+Conceitos de conjuntos de números na matemática.<br /><br />
+Diferença entre conjunto e listas<br /><br />
 </td>
 
 <td>
 Estudo de Caso 1:<br />
-Como implementar o Single Responsability em classes Java? Refatoração de classes com mais de uma responsabilidade.
+Implementação do próprio conjunto de dados com Java.
 <br /><br />
 Expositiva:<br />
-O que é Responsabilidade Única<br /><br />
-Pesquisa individual:<br />
-Pesquisar vantagens e desvantagens da utilização do principio de Responsabilidade Única<br /><br />
+Utilizando Java HashSet<br /><br />
+Utilizando Java LinkedHashSet<br /><br />
+Utilizando Java TreeSet<br /><br />
+ArrayList vs LinkedList vs HashSet<br /><br />
+Principais diferenças Hashset vs LinkedHashset vs Treeset<br /><br />
+Como o Treeset ordena os dados?<br /><br />
+Como o LinkedHashset ordena os dados?<br /><br />
+Qual estrutura de conjunto é mais performática na operação de adicionar?<br /><br />
+Qual estrutura de conjunto é mais performática na operação de buscar determinado item?<br /><br />
 Prático:<br />
-Exercícios de fixação (Implementação do Single Responsability).
+Implemente uma agenda de contatos com Java utilizando uma ou mais estruturas de CONJUNTO
 </td>
 </tr>
 <tr>
@@ -285,47 +325,50 @@ Exercícios de fixação (Implementação do Single Responsability).
 Aula 7
 </td>
 <td>
-Princípios SOLID - Aberto-Fechado<br /><br />
-Princípios SOLID - Liskov Substitution e Interface Segregation<br /><br />
+Java Collection<br /><br />
 </td>
 <td>
-SOLID - Aberto-Fechado
-<br /><br />
-Implementação dos conceitos de Aberto-Fechado em classes Java
+Classes e interfaces da Api de collections
+interface Map
+Vector
 <br /><br />
 </td>
 
 <td>
 Estudo de Caso 1:<br />
-Como implementar o conceito de Aberto-Fechado em classes Java? Exemplos de classes que seguem o padrão Aberto-Fechado.
+Principais diferenças entre LIST e SET.
+interface Map
+interface Collection.
+java.util.Collections
+java.util.Arrays
 <br /><br />
-Expositiva:<br />
-Princípio Aberto-Fechado<br /><br />
-Princípio Liskov Substitution e Interface Segregation<br /><br />
-Pesquisa individual:<br />
-Pesquisar vantagens e desvantagens da utilização do princípio Aberto-Fechado<br /><br />
 Prático:<br />
-Exercícios de fixação (Princípio Aberto-Fechado).
+Pesquisar e ler a documentação do Java collections
 </td>
 </tr>
 <tr>
+<td>Aula 8</td>
 <td>
-Aula 8
+Notação Big O e algoritmos de ordenação<br /><br />
 </td>
 <td>
-Projeto Orientado a Objetos<br /><br />
-</td>
-<td>
-Implementação de um Projeto com interfaces, generics e SOLID
+Classificação dos algoritmos
+Análise de complexidade e performance de algoritmos
+Algoritmos de ordenação
 <br /><br />
 </td>
 
 <td>
 Estudo de Caso 1:<br />
-Como desenvolver uma aplicação Java utilizando interfaces, generics e seguindo os padrões SOLID?
+Análise de algoritmos
+Implementação, vantagens e desvantagens BUBBLE SORT
+Recursividade
+Implementação, vantagens e desvantagens QUICK SORT
+
 <br /><br />
 Prático:<br />
-Exercícios de fixação (Implementação de uma aplicação completa utilizando todos os conceitos vistos no módulo).
+Pesquisar e implementar INSERTION SORT e SELECTION SORT
+Reduzir a complexidade de um algoritmo de grandeza quadrática (for dentro de for por todas os elementos)
 </td>
 </tr>
 <tr>
