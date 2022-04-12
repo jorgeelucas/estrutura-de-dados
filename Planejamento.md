@@ -76,43 +76,38 @@ Ordenação com Java
 <td>
 Estrutura de dados e seus principais objetivos e operações
 <br/><br/>
-Implementações de `lista linear`, `lista ligada (singly linked list)`, `lista duplamente ligada (doubly-linked-list)`
+Implementações de LISTA LINEAR, LISTA LIGADA (singly linked list), LISTA DUPLAMENTE LIGADA (doubly-linked-list)
 <br/><br/>
-_Array_, _Vector_,_ArrayList_,_LinkedList_
+Array, Vector,ArrayList,LinkedList
 <br/><br/>
 Implementações e conceitos de Filas e Pilhas
 <br/><br/>
-Conceitos de _LIFO_ e _FIFO_
+Conceitos de LIFO e FIFO
 <br/><br/>
-_Stack_, _Queue_
+Stack, Queue
 <br/><br/>
 Implementações e utilizações de Mapas, dicionários e Árvores de dados.
 <br/><br/>
-_Map__, Hashing_ e tabelas de _Hash_, _Hash code_ e _Equals_
+Map, Hashing e tabelas de Hash, Hash code e Equals
 <br/><br/>
 Implementações e conceitos de Conjunto de dados.
 <br/><br/>
-_Hashset_, _LinkedHashSet_
+Hashset, LinkedHashSet
 <br/><br/>
-Análise e complexidade de algotimos com notação _Big O_
+Análise e complexidade de algotimos com notação Big O
 <br/><br/>
-Algoritmos de ordenação, _Bubble sort_, _Insertion sort_, _Selection sort_, Recursividade e depois _Quick sort_
+Algoritmos de ordenação, Bubble sort, Insertion sort, Selection sort, Recursividade e depois Quick sort
 <br/><br/>
-Ordenação com `TreeSet` e `TreeMap`.
-Ordenação de estruturas como `LinkedHashSet`, `HashSet`, `ArrayList`, `LinkedList`.
+Ordenação com TreeSet e TreeMap.
+Ordenação de estruturas como LinkedHashSet, HashSet, ArrayList, LinkedList.
 <br/><br/>
 </td>
 <td>
 Links:<br/><br/>
-*   [Data structures - medium](https://medium.com/omarelgabrys-blog/diving-into-data-structures-6bc71b2e8f92)
-*   [Comparison - medium](https://medium.com/omarelgabrys-blog/data-structures-a-quick-comparison-6689d725b3b0)
-*   [Playlist do youtube para algoritmos de ordenação com java - youtube](https://www.youtube.com/watch?v=8zVdz6TyV_c&list=PLTLAlheiUm5FRR5BNn4iBFwzYHiNq2Iv2)
-*   [Hash Map com java - devmedia](https://www.devmedia.com.br/hashmap-java-trabalhando-com-listas-key-value/29811)
-*   [Hashing com java - github](https://joaoarthurbm.github.io/eda/posts/hashtable/)
-*   [Diferença entre os tipos de SET - devmedia](https://www.devmedia.com.br/diferencas-entre-treeset-hashset-e-linkedhashset-em-java/29077)
-*   [Java Collection - alura](https://www.alura.com.br/conteudo/java-collections)
-*   [Implementações de SET - oracle](https://docs.oracle.com/javase/tutorial/collections/implementations/set.html)
-*   [Big O - stackoverflow](https://pt.stackoverflow.com/questions/56836/defini%C3%A7%C3%A3o-da-nota%C3%A7%C3%A3o-big-o#:~:text=A%20ideia%20da%20nota%C3%A7%C3%A3o%20Big,%2C%20genericamente%2C%20por%20n%20).
+*   Data structures: https://medium.com/omarelgabrys-blog/diving-into-data-structures-6bc71b2e8f92
+*   algoritmos de ordenação com java: https://www.youtube.com/watch?v=8zVdz6TyV_c&list=PLTLAlheiUm5FRR5BNn4iBFwzYHiNq2Iv2
+*   Hash Map com java: https://www.devmedia.com.br/hashmap-java-trabalhando-com-listas-key-value/29811
+*   Hashing com java: https://joaoarthurbm.github.io/eda/posts/hashtable/
 
 
 <br/><br/>
@@ -183,14 +178,14 @@ Diferentes implementações de listas
 <td>
 Definição de lista ligada<br></br>
 Definindo de lista duplamente ligada<br></br>
-Principais diferenças entre lista linear vs lista ligada
+Principais diferenças entre lista linear vs lista ligada<br />
 </td>
 <td>
 Estudo de Caso 1:<br />
-Como funciona internamente uma Lista Ligada? 
-Criando a própria implementação de lista ligada com Java.
-Como funciona internamente uma Lista Duplamente Ligada?
-Criando a própria implementação de lista duplamente ligada com Java.
+Como funciona internamente uma Lista Ligada? <br />
+Criando a própria implementação de lista ligada com Java.<br />
+Como funciona internamente uma Lista Duplamente Ligada?<br />
+Criando a própria implementação de lista duplamente ligada com Java.<br />
 <br /><br />
 <br /><br />
 Expositiva:<br />
@@ -198,7 +193,7 @@ Utilizando LinkedList em Java<br />
 Diferença entre ArrayList vs LinkedList<br />
 <br /><br />
 Prático:<br />
-Exercícios de fixação (Quando decidir por um ou outro tipo de lista).
+Exercícios de fixação (Quando decidir por um ou outro tipo de lista).<br />
 </td>
 </tr>
 <tr>
@@ -209,18 +204,18 @@ Aula 3
 Pilhas e Filas
 </td>
 <td>
-Principais conceitos de Pilha?
-Principais conceitos de Fila?
-LIFO vs FIFO
-Principais utilizações de Pilhas no mundo real? (Pilha de livros, pilhas de prato)
-Desempilhar
-Principais utilizações de FILA (Fila de banco)
+Principais conceitos de Pilha?<br />
+Principais conceitos de Fila?<br />
+LIFO vs FIFO<br />
+Principais utilizações de Pilhas no mundo real? (Pilha de livros, pilhas de prato)<br />
+Desempilhar<br />
+Principais utilizações de FILA (Fila de banco)<br />
 <br /><br />
 </td>
 <td>
 Estudo de Caso 1:<br />
-Criar e desenvolver a nossa própria implementação de PILHA em Java seguindo os conceitos.
-Criar e desenvolver a nossa própria implementação de FILA em Java seguindo os conceitos.
+Criar e desenvolver a nossa própria implementação de PILHA em Java seguindo os conceitos.<br />
+Criar e desenvolver a nossa própria implementação de FILA em Java seguindo os conceitos.<br />
 <br /><br />
 <br /><br />
 Expositiva:<br />
@@ -231,7 +226,7 @@ Queue com LinkedList<br /><br />
 java.util.ArrayDeque<br /><br />
 
 Prático:<br />
-Exercícios de fixação (Pilhas e Filas).
+Exercícios de fixação (Pilhas e Filas).<br />
 </td>
 </tr>
 <tr>
@@ -242,20 +237,20 @@ Aula 4
 Arrays associativos/dicionários/Map<br /><br />
 </td>
 <td>
-pares chave-valor
-Arrays associativos vs objeto
-Arrays associativos e suas principais atribuições<br><br />
-Arrays associativos vs array<br><br />
+Pares chave-valor<br />
+Arrays associativos vs objeto<br />
+Arrays associativos e suas principais atribuições<br />
+Arrays associativos vs array<br />
 <br /><br />
 Estudo de Caso 1:<br />
-Implementação do nosso próprio array associativo
-Como o Java repressenta arrays associativos
+Implementação do nosso próprio array associativo<br />
+Como o Java repressenta arrays associativos<br />
 <br /><br />
 Expositiva:<br />
 Java HashMap<br /><br />
 
 Prático:<br />
-Desenvolva uma agenda de contatos telefonicos utilizando um array associativo
+Desenvolva uma agenda de contatos telefonicos utilizando um array associativo<br />
 </td>
 </tr>
 <tr>
@@ -276,9 +271,9 @@ Hash table vs Arrays vs Listas ligadas
 
 <td>
 Estudo de Caso 1:<br />
-Implementando nossa própria tabela de dispersão.
-Como funciona o conceito de Hash table?
-hash table vs arrays e listas
+Implementando nossa própria tabela de dispersão.<br />
+Como funciona o conceito de Hash table?<br />
+hash table vs arrays e listas<br />
 <br /><br />
 Expositiva:<br />
 hashcode e equals em Java<br /><br />
